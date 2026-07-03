@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       // function clickMe() {
+           // alert("Welcome");
+           // document.write("Welcome");
+           //console.log("Welcome");
+          // document.getElementById("response").innerHTML = "Welcome";
+        //}
+
+      //  function addTwoNo() {
+           // var num1 = parseInt(document.getElementById("a").value);
+            //var num2 = parseInt(document.getElementById("b").value);
+            //var sum = num1 + num2;
+
+          //  var num1 = parseFloat(document.getElementById("a").value);
+          //  var num2 = parseFloat(document.getElementById("b").value);
+          //  var sum = num1 + num2;
+
+          //  var num1 = Number(document.getElementById("a").value);
+          //  var num2 = Number(document.getElementById("b").value);
+          //  var sum = num1 + num2;
+          //  alert("Sum of two no. is: " + sum);
+
+           //
+        
+
+            function evenOdd(){
+                var num = parseInt(prompt("Enter a number: ?"));
+                if(num % 2 == 0){
+                    alert("The number is even: " + num);
+                }
+                else{
+                    alert("The number is odd: " + num);
+                }
+            }
+
+           
+    </script>    
+</head>
+<body>
+
+
+    <div id= response> </div>
+    <input type="submit" value="click me" onclick="clickMe()">
+
+    <input type="text" id="a" placeholder="Enter first no.">
+    <input type="text" id="b" placeholder="Enter second no.">
+    <input type="submit" value="Add two no." onclick="addTwoNo()"> 
+
+    <input type="submit" value="Check positive or negative" onclick="posNeg()">
+
+    <input type="submit" value="Check even or odd" onclick="evenOdd()">
+
+    <input type="submit" value="Check weekday" onclick="weekday()">
+
+    <input type="submit" value="Check month" onclick="month()">
+
+    <script src="webapp.js"></script>
+
+
+         
+
+</body>
+
+</html>

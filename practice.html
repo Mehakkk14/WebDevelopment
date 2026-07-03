@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addfiveNo() {
+           // var num1 = parseFloat(document.getElementById("a").value);
+            //var num2 = parseFloat(document.getElementById("b").value);
+           // var num3 = parseFloat(document.getElementById("c").value);
+            //var num4 = parseFloat(document.getElementById("d").value);
+           // var num5 = parseFloat(document.getElementById("e").value);  
+
+            var num1 = parseFloat(prompt("Enter first no."));
+            var num2 = parseFloat(prompt("Enter second no."));
+            var num3 = parseFloat(prompt("Enter third no."));
+            var num4 = parseFloat(prompt("Enter fourth no."));
+            var num5 = parseFloat(prompt("Enter fifth no."));
+
+            var sum = num1 + num2 + num3 + num4 + num5;
+
+            alert("Sum of five no. is: " + sum);
+
+            
+        }
+    </script>
+</head>
+<body>
+
+    <input type="text" id="a" placeholder="Enter first no.">
+    <br>
+    <input type="text" id="b" placeholder="Enter second no.">
+    <br>
+    <input type="text" id="c" placeholder="Enter third no.">
+    <br>
+    <input type="text" id="d" placeholder="Enter fourth no.">
+    <br>
+    <input type="text" id="e" placeholder="Enter fifth no.">
+    <br>
+
+    <input type="submit" value="Add five no." onclick="addfiveNo()">   
+    
+</body>
+</html>
